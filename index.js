@@ -13,6 +13,8 @@ app.on('ready', () => {
     let win = createMainWindow();
 })
 
+app.on('window-all-closed', app.quit);
+
 function createMainWindow() {
   var win = new electron.BrowserWindow({
     title: appName,

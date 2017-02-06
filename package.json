@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron index.js",
-    "build": "electron-packager . plex --platform=win32 --arch=x64 --icon=images\strict_logo.ico",
+    "build": "electron-packager . plex --platform=win32 --arch=x64 --icon=images/strict_logo.ico",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tatarintsev Aleksandr",
